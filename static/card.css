@@ -82,8 +82,8 @@
     width: 100%;
     display: block;
     visibility: visible;
-
 }
+
 
 .card-content {
     font-size: 1rem;
@@ -93,8 +93,8 @@
     width: 100%;
     flex-grow: 1; /* 使内容区域占据剩余空间，推动底部元素到卡片底部 */
     overflow-wrap: break-word;
-
 }
+
 .source{
     font-size: 0.8em;
     margin-bottom: 0.6em;
@@ -108,7 +108,6 @@
     border-bottom: 1px solid; /* 添加底部边框来模拟线条 */
     color: inherit; /* 继承字体颜色 */
     width: 100%;
-
     margin-top: 0em;
     margin-bottom:1em;
 }

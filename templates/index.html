@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>摘录生成</title>
-     <meta name="description" content="notecard.top, 开源免费自定义精美的笔记卡片">
+    <meta name="description" content="notecard.top, 开源免费自定义精美的笔记卡片">
     <meta name="keywords" content="书签模板,精美卡片,书摘分享,小红书模板,书签模板,书签制作,日签制作">
     <meta name="robots" content="index, follow">
-     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <link id="theme-stylesheet"  rel="stylesheet" href="{{ url_for('static', filename='card.css') }}">
-     <link rel="stylesheet" href="{{ url_for('static', filename='setting.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='setting.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
     <script>
@@ -60,7 +60,7 @@
                         <!-- Nickname 和 Date -->
                         <div class="nickname-date">
                             <div class="nickname">
-                                <p id="nickname" contenteditable="true">简介</p>
+                                <p id="nickname" contenteditable="true">简述</p>
                             </div>
                             <div class="date-container">
                                 <p id="date-text" contenteditable="true">摘录于  </p>
@@ -73,13 +73,13 @@
                     <div class="content">
 
                         <div class="card-content" id="card-content">
-                            <p id="content" contenteditable="true" style="white-space: pre-wrap; word-wrap: break-word;">语录</p>
+                            <p id="content" contenteditable="true" style="white-space: pre-wrap; word-wrap: break-word;">摘录内容</p>
                         </div>
                         <div class="source">
-                                <p id="source" contenteditable="true">/改变自己的一套自制外挂系统 </p>
+                                <p id="source" contenteditable="true">翻译</p>
                             </div>
                         <div class="author">
-                            <p id="author" contenteditable="true">出处</p>
+                            <p id="author" contenteditable="true">——出处</p>
                         </div>
 
                     </div>
@@ -101,7 +101,8 @@
                     </div>
 </div>
             </div>
-            <a id="github" href="https://github.com/bajiuguiyi/notecard" title="了解更多关于笔记卡片网站的信息" target="_blank">此项目开源，点此部署同款笔记卡片网站</a>
+            <a id="github" href="https://github.com/bajiuguiyi/notecard" title="了解更多关于笔记卡片网站的信息" target="_blank">本站对源项目有所更改，点此查看源项目</a>
+            <p>【注】可使用Ctrl+B/I/U键得到粗/斜/下划线体</p>
         </div>
 
         <!-- Right Side Settings (No Change Needed) -->

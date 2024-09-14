@@ -537,6 +537,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+
     // 启动定时器以便自动隐藏
     startHideTimeout();
 

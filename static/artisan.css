@@ -52,7 +52,6 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e9e5d9;
-
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
@@ -64,7 +63,6 @@
     background-image: url('{{ url_for('static', filename='avatar.png') }}');
     background-size: cover;
     margin-right: 0.5em;
-
 }
 
 .avatar img {
@@ -106,20 +104,24 @@
     font-size: 1rem;
     line-height: 1.6;
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     width: 100%;
     font-weight: 470;
     flex-grow: 1; /* 使内容区域占据剩余空间，推动底部元素到卡片底部 */
 }
+
+
 .source{
+    color:rgb(232, 227, 227);
     font-size: 0.8em;
-    margin-bottom: 0.6em;
+    margin-top: 0.6em;
+    margin-bottom:0.3em;
+    font-style: italic;
 }
 .author {
     font-size: 0.7em;
     margin-bottom: 0.1em;
     text-align: right;
-    font-style: italic;
 }
 /* 卡片底部区域 */
 .footer {
@@ -135,6 +137,7 @@
     font-weight: bold;
     white-space: nowrap;
 }
+
 
 .qr-code {
     width: 4em;
