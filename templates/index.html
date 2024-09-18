@@ -81,18 +81,15 @@
                         <div class="author">
                             <p id="author" contenteditable="true">——出处</p>
                         </div>
-
+                        <div class="footer-left">                        
+                            <div class="notecard">
+                                <p id="notecard" contenteditable="true">注释</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="separator"></div>
                     <!-- 底部区域 -->
                     <div class="footer">
-
-                        <div class="footer-left">
-
-                            <div class="notecard">
-                                <p id="notecard" contenteditable="true">notecard.top  </p>
-                            </div>
-                        </div>
                         <!-- QR Code -->
                         <div class="qr-code">
                             <img id="qrCodeImage" src="{{ url_for('static', filename='images/qr_code.png') }}" alt="笔记卡片制作">
@@ -101,7 +98,7 @@
                     </div>
 </div>
             </div>
-            <a id="github" href="https://www.notecard.top" title="了解更多关于笔记卡片网站的信息" target="_blank">本站对源项目有所更改，点此查看源项目</a>
+            <a id="github" href="https://www.notecard.top" title="了解更多关于笔记卡片网站的信息" target="_blank">本站对源项目有所更改，点此查看原版</a>
             <p>【注】可使用Ctrl+B/I/U键得到粗/斜/下划线体</p>
         </div>
 
@@ -208,12 +205,12 @@
             <label>页面元素</label>
                 <div class="display-options">
                 <label><input type="checkbox" id="show-avatar"> 头像</label>
-                <label><input type="checkbox" id="show-nickname"> 昵称</label>
+                <label><input type="checkbox" id="show-nickname"> 简述</label>
                 <label><input type="checkbox" id="show-date"> 时间</label>
                 <label><input type="checkbox" id="show-content"> 正文</label>
-                <label><input type="checkbox" id="show-source"> 来源</label>
-                <label><input type="checkbox" id="show-author"> 作者</label>
-                <label><input type="checkbox" id="show-notecard"> 网址</label>
+                <label><input type="checkbox" id="show-source"> 翻译</label>
+                <label><input type="checkbox" id="show-author"> 出处</label>
+                <label><input type="checkbox" id="show-notecard"> 注释</label>
                 <label><input type="checkbox" id="show-qr-code"> 二维码</label>
             </div>
                 </div>

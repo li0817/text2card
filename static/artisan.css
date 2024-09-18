@@ -91,7 +91,6 @@
 
 /* 内容区域 */
 .content {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -106,7 +105,7 @@
     text-align: left;
     margin-bottom: 0;
     width: 100%;
-    /*font-weight: 470; 取消默认加粗*/
+    font-weight: 470; 
     flex-grow: 1; /* 使内容区域占据剩余空间，推动底部元素到卡片底部 */
 }
 
@@ -123,21 +122,22 @@
     margin-bottom: 0.1em;
     text-align: right;
 }
-/* 卡片底部区域 */
+
 .footer {
     border-top: 1px solid #e9e5d9;
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
-        align-items: center; /* 使子元素垂直居中 */
+        align-items: right; /* 使子元素垂直居中 */
     width: 100%;
 }
-.notecard {
-    font-size: 0.7em;
-    font-weight: bold;
-    white-space: nowrap;
-}
 
+.notecard {
+    color: rgb(232, 227, 227);
+    font-size: 0.6em;
+    white-space: nowrap;
+    text-align: right;
+}
 
 .qr-code {
     width: 4em;
