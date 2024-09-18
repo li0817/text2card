@@ -106,7 +106,7 @@
     text-align: left;
     margin-bottom: 0;
     width: 100%;
-    font-weight: 470;
+    /*font-weight: 470; 取消默认加粗*/
     flex-grow: 1; /* 使内容区域占据剩余空间，推动底部元素到卡片底部 */
 }
 
